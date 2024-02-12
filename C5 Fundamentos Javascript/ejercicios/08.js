@@ -3,7 +3,7 @@ function esNumeroEntero(numero) {
   // Verifica si este es un número entero o no.
   // Returna true si lo es, de lo contrario, retorna false.
   // Tu código:
-  return numero >=0 ? true: false; 
+  return numero !== Math.floor(numero) ? false: true; 
 }
 
 module.exports = esNumeroEntero;
